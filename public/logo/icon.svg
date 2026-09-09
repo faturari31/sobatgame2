@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7" />
+      <stop offset="50%" stop-color="#0EA5E9" />
+      <stop offset="100%" stop-color="#0369A1" />
+    </linearGradient>
+    <linearGradient id="tileJGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#F1F5F9" />
+    </linearGradient>
+    <linearGradient id="tileKGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <linearGradient id="starGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDE047" />
+      <stop offset="100%" stop-color="#EAB308" />
+    </linearGradient>
+    <filter id="iconShadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="8" stdDeviation="6" flood-opacity="0.25" flood-color="#0C4A6E"/>
+    </filter>
+  </defs>
+
+  <!-- Squircle Base -->
+  <rect x="8" y="8" width="176" height="176" rx="42" fill="url(#bgGrad)" filter="url(#iconShadow)"/>
+
+  <!-- Subtle Inner Border Highlight -->
+  <rect x="10" y="10" width="172" height="172" rx="40" stroke="#FFFFFF" stroke-opacity="0.3" stroke-width="2"/>
+
+  <!-- Geometric Book Outline in White -->
+  <path d="M 32 144 C 64 128, 92 128, 96 136 C 100 128, 128 128, 160 144 L 154 84 C 126 72, 100 72, 96 80 C 92 72, 66 72, 38 84 Z" fill="#FFFFFF" fill-opacity="0.15" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 96 80 L 96 136" stroke="#FFFFFF" stroke-opacity="0.6" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Letter Block 'J' -->
+  <g transform="translate(42, 68)">
+    <rect x="0" y="0" width="50" height="50" rx="14" fill="url(#tileJGrad)" filter="url(#iconShadow)"/>
+    <text x="25" y="36" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="30" fill="#0284C7" text-anchor="middle">J</text>
+  </g>
+
+  <!-- Letter Block 'K' -->
+  <g transform="translate(100, 78)">
+    <rect x="0" y="0" width="50" height="50" rx="14" fill="url(#tileKGrad)" filter="url(#iconShadow)"/>
+    <text x="25" y="36" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="30" fill="#FFFFFF" text-anchor="middle">K</text>
+  </g>
+
+  <!-- Sparkling Golden Star on Top -->
+  <path d="M 96 28 L 100.5 39 L 112 40.5 L 103.5 48 L 106 59.5 L 96 53.5 L 86 59.5 L 88.5 48 L 80 40.5 L 91.5 39 Z" fill="url(#starGrad)" filter="url(#iconShadow)"/>
+
+  <!-- Small Corner Sparkle -->
+  <circle cx="146" cy="38" r="4" fill="#F8FAFC" />
+  <circle cx="44" cy="46" r="3" fill="#F8FAFC" fill-opacity="0.8"/>
+</svg>

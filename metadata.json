@@ -1,0 +1,6 @@
+{
+  "name": "Jelajah Kata",
+  "description": "Game edukasi anak Bahasa Indonesia premium bersama sobat game untuk menjelajahi huruf dan kata secara interaktif.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

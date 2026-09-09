@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 120" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="gradPrimary" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7" />
+      <stop offset="100%" stop-color="#0369A1" />
+    </linearGradient>
+    <linearGradient id="gradCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#0EA5E9" />
+    </linearGradient>
+    <linearGradient id="gradAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <linearGradient id="gradGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FBBF24" />
+      <stop offset="100%" stop-color="#F59E0B" />
+    </linearGradient>
+    <filter id="subtleShadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-opacity="0.15" flood-color="#0F172A"/>
+    </filter>
+  </defs>
+
+  <!-- Left Icon Emblem: Geometric Book & Alphabet Blocks -->
+  <g transform="translate(10, 10)">
+    <!-- Book Base / Cover -->
+    <path d="M 12 75 C 28 65, 48 65, 52 72 C 56 65, 76 65, 92 75 L 88 88 C 74 79, 56 79, 52 84 C 48 79, 30 79, 16 88 Z" fill="url(#gradPrimary)" filter="url(#subtleShadow)" />
+    <!-- Book Pages -->
+    <path d="M 16 71 C 30 63, 48 63, 52 70 C 56 63, 74 63, 88 71 L 86 35 C 72 27, 56 27, 52 33 C 48 27, 32 27, 18 35 Z" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="2" />
+    <path d="M 52 33 L 52 72" stroke="#0284C7" stroke-width="2" stroke-linecap="round" />
+    
+    <!-- Letter Tile 1: J -->
+    <rect x="22" y="32" width="26" height="26" rx="6" fill="url(#gradCyan)" filter="url(#subtleShadow)" />
+    <text x="35" y="51" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="16" fill="#FFFFFF" text-anchor="middle">J</text>
+
+    <!-- Letter Tile 2: K -->
+    <rect x="56" y="32" width="26" height="26" rx="6" fill="url(#gradAccent)" filter="url(#subtleShadow)" />
+    <text x="69" y="51" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="16" fill="#FFFFFF" text-anchor="middle">K</text>
+
+    <!-- Star Top Sparkle -->
+    <path d="M 52 14 L 54.5 20 L 60.5 21 L 56 25 L 57.5 31 L 52 27.5 L 46.5 31 L 48 25 L 43.5 21 L 49.5 20 Z" fill="url(#gradGold)" />
+  </g>
+
+  <!-- Typography Area -->
+  <g transform="translate(125, 0)">
+    <!-- Supporting Brand: sobat game (small) -->
+    <g transform="translate(4, 28)">
+      <rect x="0" y="0" width="88" height="18" rx="9" fill="#0284C7" fill-opacity="0.1" stroke="#38BDF8" stroke-width="1"/>
+      <circle cx="9" cy="9" r="3.5" fill="#10B981" />
+      <text x="18" y="13" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="10.5" fill="#0284C7" letter-spacing="0.5">sobat game</text>
+    </g>
+
+    <!-- Main Dominant Name: JELAJAH KATA -->
+    <text x="4" y="76" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="38" letter-spacing="0.5" fill="#0F172A">
+      JELAJAH <tspan fill="#0284C7">KATA</tspan>
+    </text>
+
+    <!-- Tagline: Petualangan seru bersama huruf dan kata -->
+    <text x="4" y="98" font-family="system-ui, -apple-system, sans-serif" font-weight="600" font-size="13" fill="#64748B" letter-spacing="0.2">
+      Petualangan seru bersama huruf dan kata
+    </text>
+  </g>
+</svg>
